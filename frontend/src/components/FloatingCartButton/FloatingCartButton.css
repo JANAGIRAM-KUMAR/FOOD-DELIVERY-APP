@@ -1,0 +1,19 @@
+.floating-cart-button {
+  position: fixed;
+  display: flex;
+  bottom: 25px;
+  right: 25px;
+  border: none;
+  font-size: 26px;
+  padding: 10px 15px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  z-index: 1;
+  border-radius: 50%;;
+}
+
+.floating-cart-button img {
+    width: 30px;
+}
